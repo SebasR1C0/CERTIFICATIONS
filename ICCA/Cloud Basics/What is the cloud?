@@ -4,18 +4,18 @@ On-Premises Information System Architecture = Cloud Architecture
 	Services (More emphasize in Cloud)
 	Virtual Machine (More emphasize in Cloud)
 	Management Plane (Only in Cloud)
-	Virtualization: Platform, Maitenance and Licensing
-	Pyhisical Infraestucture:Power, Network, Storage and Racks
-	Pyhisical Facility: Costs of Sapace, Physical Security and Personnel
+	Virtualization: Platform, Maintenance and Licensing
+	Physical Infrastructure: Power, Network, Storage and Racks
+	Physical Facility: Costs of Space, Physical Security and Personnel
 
 Types of Cloud Services
-	Workload: SaaS.  (Easier administration)
+	Workload: SaaS. (Easier administration)
 	Services: PaaS
 	Virtual Machine: IaaS. (Easier control)
 
-Accesing Cloud Services
-	The most important thing that we would be connet to the cloud is the use of internet.
-	We can use to different ways to connect: Tunneling (vpn) or Endpoint
-	Security is provider by vendor, using 3 security components CIA
+Accessing Cloud Services
+	The most important thing that we would be connect to the cloud is the use of internet.
+	We can use two different ways to connect: Tunneling (VPN) or Endpoint
+	Security is provided by vendor, using 3 security components CIA
 
 Why I love the Cloud

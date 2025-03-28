@@ -1,0 +1,15 @@
+#EC2
+-Put a name "myfirstlab"
+-Choose a OS image "Amazon Linux"
+-Instance type: Here we choose the vCPU and Gib Memory, also we can compere btween instances
+-Key pair (login): Create one, I called "demo" choose "RSA" & ".pem"
+-Network settings: Here we can improve instance's security
+-Configure storage
+-In the righ hand we can see how many instances we're goung to create by default is 1
+-Launch
+
+#S3 bucket
+-Bucket name put the name "indedemobucket"
+-Block all public access is true by default
+-Bucket Versioning is disable
+-Create a bucket

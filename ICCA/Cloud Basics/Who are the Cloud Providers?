@@ -1,39 +1,39 @@
 Cloud Market
-2| 2019 $216B -> AWS 45% Others 20% Azure 18%
-3| 2020 $371B
-4| 2025 $823B
-5| 
-6| AWS
-7| 	Launched 2006
-8| 	Over 190 countries & 18 global regions
-9| 	Over 1,000,000 active users
-10| 	Over 175 products and services
-11|     - **Amazon EC2 (Elastic Compute Cloud)**: Provides scalable computing capacity in the cloud to run virtual servers.
-12|     - **Amazon S3 (Simple Storage Service)**: Offers scalable object storage for data backup, archival, and analytics.
-13|     - **Amazon RDS (Relational Database Service)**: Makes it easy to set up, operate, and scale a relational database in the cloud.
-14|     - **Amazon Lambda**: Allows you to run code without provisioning or managing servers, ideal for serverless computing.
-15|
-16| Azure
-17| 	Public 2010
-18| 	Over 169 services
-19| 	Over 300k customers
-20| 	57 regions & 31 geographies
-21|     - **Azure Virtual Machines**: Provides scalable virtual machines running Windows or Linux.
-22|     - **Azure Blob Storage**: Offers massively scalable object storage for unstructured data.
-23|     - **Azure SQL Database**: A fully managed relational database with built-in intelligence.
-24|     - **Azure Functions**: Enables serverless compute capabilities to run event-driven code.
-25|
-26| GCP
-27| 	Launches 2010
-28| 	Over 90 services 
-29| 	Idk users
-30|     - **Google Compute Engine**: Provides scalable virtual machines in the cloud.
-31|     - **Google Cloud Storage**: Offers unified object storage for developers and enterprises.
-32|     - **Google Cloud SQL**: A fully managed relational database service for MySQL, PostgreSQL, and SQL Server.
-33|     - **Google Cloud Functions**: Allows you to deploy event-driven serverless code functions.
-34| 
-35| Other Cloud Providers (20% in 2019)
-36| 	Tencent & Alibana in China
-37| 	IBM and Oracle
-38| 	Digital Ocean
-39| 	Private cloud providers
+2019 $216B -> AWS 45% Others 20% Azure 18%
+2020 $371B
+2025 $823B
+
+AWS
+	Launched 2006
+	Over 190 countries & 18 global regions
+	Over 1,000,000 active users
+	Over 175 products and services
+    - Amazon EC2 (Elastic Compute Cloud)**: Provides scalable computing capacity in the cloud to run virtual servers.
+    - Amazon S3 (Simple Storage Service)**: Offers scalable object storage for data backup, archival, and analytics.
+    - Amazon RDS (Relational Database Service)**: Makes it easy to set up, operate, and scale a relational database in the cloud.
+    - Amazon Lambda**: Allows you to run code without provisioning or managing servers, ideal for serverless computing.
+
+Azure
+	Public 2010
+	Over 169 services
+	Over 300k customers
+	57 regions & 31 geographies
+    - Azure Virtual Machines**: Provides scalable virtual machines running Windows or Linux.
+    - Azure Blob Storage**: Offers massively scalable object storage for unstructured data.
+    - Azure SQL Database**: A fully managed relational database with built-in intelligence.
+    - Azure Functions**: Enables serverless compute capabilities to run event-driven code.
+
+GCP
+	Launches 2010
+	Over 90 services 
+	Idk users
+    - Google Compute Engine**: Provides scalable virtual machines in the cloud.
+    - Google Cloud Storage**: Offers unified object storage for developers and enterprises.
+    - Google Cloud SQL**: A fully managed relational database service for MySQL, PostgreSQL, and SQL Server.
+    - Google Cloud Functions**: Allows you to deploy event-driven serverless code functions.
+
+Other Cloud Providers (20% in 2019)
+	Tencent & Alibana in China
+	IBM and Oracle
+	Digital Ocean
+	Private cloud providers

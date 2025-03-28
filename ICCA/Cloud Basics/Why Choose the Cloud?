@@ -1,1 +1,43 @@
-a
+Cloud Economics
+	Storage: Save physical storage of the company
+	Compute & Networking: Innecesary necesity of computers, because the demanding is changing 
+
+CapEx vs OpEx
+	On-premises capacity expansion = capital expense
+		Purchase equipment and licensing up-front
+		Depreciate and replace equipment
+		Renew lincenses
+
+	Cloud base capacity expansion = operational expense
+		Billed monthly for what is used
+		No equipment purchase
+		May or may not require license purchase (depends of the software that you are using, you have to pay for the license)
+
+	Capacity Reduction
+		On-premises - posible sell excess equipment
+		Cloud - reduce monthly cost
+
+Consumtions-Based Spending
+	Capacity-Based spending
+		On-premises resources
+		Some cloud resources - VM
+
+	Consumption-Based spending
+		Pay only for what is used
+		Functions, Lamba(Functions as a Services) --A function that only use when it is executed
+		Services
+		Storage
+
+Functional Advantages
+	Provision environments in minutes rather than days,weeks, or months
+		No capital equipment purchases
+		Streamlines provisioning process
+
+	built-in access and allocation management
+	Reduced administrative overhead 
+
+Also, Maybe Not
+	Existing investment
+	On-going operational expenses
+	Data fencing
+	Regulatory compliance 

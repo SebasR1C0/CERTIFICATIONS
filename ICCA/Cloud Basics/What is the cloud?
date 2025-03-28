@@ -19,3 +19,17 @@ Accessing Cloud Services
 	Security is provided by vendor, using 3 security components CIA
 
 Why I love the Cloud
+	The best providers in the world AWS Azure y GCP
+	
+	Provision VM
+	GCP: Computer Engine -> VM instances -> Create instance
+	AWS: EC2 (Elastic Cloud Compute) -> Launch Instances
+	Azure: Create a Resource -> Compute -> Ubuntu -> Create new Reource group & Use pswd (adm account)
+
+
+
+
+
+
+
+

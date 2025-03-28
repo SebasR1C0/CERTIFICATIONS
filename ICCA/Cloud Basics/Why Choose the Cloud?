@@ -1,43 +1,54 @@
-Cloud Economics
-	Storage: Save physical storage of the company
-	Compute & Networking: Innecesary necesity of computers, because the demanding is changing 
+# Cloud Economics
 
-CapEx vs OpEx
-	On-premises capacity expansion = capital expense
-		Purchase equipment and licensing up-front
-		Depreciate and replace equipment
-		Renew lincenses
+## Storage
+- Save physical storage of the company.
 
-	Cloud base capacity expansion = operational expense
-		Billed monthly for what is used
-		No equipment purchase
-		May or may not require license purchase (depends of the software that you are using, you have to pay for the license)
+## Compute & Networking
+- Unnecessary need for computers because the demand is changing.
 
-	Capacity Reduction
-		On-premises - posible sell excess equipment
-		Cloud - reduce monthly cost
+# CapEx vs OpEx
 
-Consumtions-Based Spending
-	Capacity-Based spending
-		On-premises resources
-		Some cloud resources - VM
+## On-premises Capacity Expansion (CapEx)
+- Purchase equipment and licensing up-front.
+- Depreciate and replace equipment.
+- Renew licenses.
 
-	Consumption-Based spending
-		Pay only for what is used
-		Functions, Lamba(Functions as a Services) --A function that only use when it is executed
-		Services
-		Storage
+## Cloud-based Capacity Expansion (OpEx)
+- Billed monthly for what is used.
+- No equipment purchase.
+- May or may not require license purchase (depends on the software that you are using, you have to pay for the license).
 
-Functional Advantages
-	Provision environments in minutes rather than days,weeks, or months
-		No capital equipment purchases
-		Streamlines provisioning process
+# Capacity Reduction
 
-	built-in access and allocation management
-	Reduced administrative overhead 
+## On-premises
+- Possible to sell excess equipment.
 
-Also, Maybe Not
-	Existing investment
-	On-going operational expenses
-	Data fencing
-	Regulatory compliance 
+## Cloud
+- Reduce monthly cost.
+
+# Consumption-Based Spending
+
+## Capacity-Based Spending
+- On-premises resources.
+- Some cloud resources - VM.
+
+## Consumption-Based Spending
+- Pay only for what is used.
+- Functions, Lambda (Functions as a Service) - A function that is only used when it is executed.
+- Services.
+- Storage.
+
+# Functional Advantages
+- Provision environments in minutes rather than days, weeks, or months.
+    - No capital equipment purchases.
+    - Streamlines provisioning process.
+- Built-in access and allocation management.
+- Reduced administrative overhead.
+
+# Considerations
+
+## Existing Investment
+- On-going operational expenses.
+
+## Data Fencing
+- Regulatory compliance.

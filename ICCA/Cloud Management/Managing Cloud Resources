@@ -1,1 +1,77 @@
-a
+#Cloud Manage Tools
+
+##Web-based
+-Firewall
+-Not unusual
+
+##Command Line
+-Command Line Interface (CLI)
+-PowerShell 
+
+##REST API
+-Application Programm Interface
+-Entire management through an API such as Google, third partys can use your program
+
+#Web-based Cloud Management
+-AWS, GCP & Azure
+
+#Cloud Line Cloud Management 
+
+##AWS
+-AWS CLI
+-PowerShell
+
+##Azure
+-Azure CLI
+-Azure PowerShell -> Install-Module -Name Az -AllowClonber -Scooe CurrentUser
+
+##Google Cloud
+-Google Cloud SDK
+-Component management (kubectl)
+-Cloud tool for PowerShell
+
+##Cloud shell 
+
+#Cloud API (Postman)
+-Post
+-Put
+-Delete
+-Get
+-Patch
+
+#Practice 
+
+##Azure
+-Networking
+-Find my IP address
+-Use SSH
+
+###AzureShell
+-az vm list
+
+##AWS
+-EC2
+-Instances(running)
+-t2.micro click in instance ID
+-Scrool down to TCP protocol in Security
+-Click in security group
+-Edit inbound rules
+-Put my IP address
+
+###CloudShell 
+-aws ec2 desvrube-instances
+
+
+#GCP
+-Compute Engine
+-Click in Demo
+-Scrool down to Network interfaces & click
+-Click in Network interfaces details
+-Firewall rules
+-Click in ssh
+-Edit my ip ranges
+
+###GCPShell
+-gcloud compute instances list
+
+

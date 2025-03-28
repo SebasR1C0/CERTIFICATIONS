@@ -1,77 +1,86 @@
-#Cloud Manage Tools
+# Cloud Management Tools
 
-##Web-based
--Firewall
--Not unusual
+## Web-based
+- Firewall
+- Commonly used
 
-##Command Line
--Command Line Interface (CLI)
--PowerShell 
+## Command Line
+- Command Line Interface (CLI)
+- PowerShell 
 
-##REST API
--Application Programm Interface
--Entire management through an API such as Google, third partys can use your program
+## REST API
+- Application Programming Interface (API)
+- Entire management through an API (e.g., Google). Third parties can use your program.
 
-#Web-based Cloud Management
--AWS, GCP & Azure
+# Web-based Cloud Management
+- AWS, GCP & Azure
 
-#Cloud Line Cloud Management 
+# Command Line Cloud Management 
 
-##AWS
--AWS CLI
--PowerShell
+## AWS
+- AWS CLI
+- PowerShell
 
-##Azure
--Azure CLI
--Azure PowerShell -> Install-Module -Name Az -AllowClonber -Scooe CurrentUser
+## Azure
+- Azure CLI
+- Azure PowerShell: 
+    ```powershell
+    Install-Module -Name Az -AllowClobber -Scope CurrentUser
+    ```
 
-##Google Cloud
--Google Cloud SDK
--Component management (kubectl)
--Cloud tool for PowerShell
+## Google Cloud
+- Google Cloud SDK (Software Developer Kit)
+- Component management (kubectl)
+- Cloud tool for PowerShell
 
-##Cloud shell 
+## Cloud Shell 
 
-#Cloud API (Postman)
--Post
--Put
--Delete
--Get
--Patch
+# Cloud API (Postman)
+- POST
+- PUT
+- DELETE
+- GET
+- PATCH
 
-#Practice 
+# Practice 
 
-##Azure
--Networking
--Find my IP address
--Use SSH
+## Azure
+- Networking
+- Find my IP address
+- Use SSH
 
-###AzureShell
--az vm list
+### AzureShell
+- List virtual machines:
+    ```sh
+    az vm list
+    ```
 
-##AWS
--EC2
--Instances(running)
--t2.micro click in instance ID
--Scrool down to TCP protocol in Security
--Click in security group
--Edit inbound rules
--Put my IP address
+## AWS
+- EC2
+- Instances (running)
+- t2.micro: click on instance ID
+- Scroll down to TCP protocol in Security
+- Click on security group
+- Edit inbound rules
+- Add my IP address
 
-###CloudShell 
--aws ec2 desvrube-instances
+### CloudShell 
+- Describe instances:
+    ```sh
+    aws ec2 describe-instances
+    ```
 
+## GCP
+- Compute Engine
+- Click on Demo
+- Scroll down to Network interfaces & click
+- Click on Network interfaces details
+- Firewall rules
+- Click on ssh
+- Edit my IP ranges
 
-#GCP
--Compute Engine
--Click in Demo
--Scrool down to Network interfaces & click
--Click in Network interfaces details
--Firewall rules
--Click in ssh
--Edit my ip ranges
-
-###GCPShell
--gcloud compute instances list
-
-
+### GCPShell
+- List compute instances:
+    ```sh
+    gcloud compute instances list
+    ```

@@ -1,9 +1,52 @@
 SLAs = Server-Level Agreements
 
 #Cloud Resource Responsability
+-The combinationof Data Plan & Management Plan depende of the SLA (Iaas, PaaS, SaaS)
 
+
+##Data Plane 
+	Workload (More emphasize in Cloud)  (+ Client Responsability) (DP)
+	Services (More emphasize in Cloud) (MP)
+	Virtual Machine (More emphasize in Cloud) (SLA)
+
+#Management 
+	Management Plane (Only in Cloud)
+	Virtualization: Platform, Maintenance and Licensing
+	Physical Infrastructure: Power, Network, Storage and Racks
+	Physical Facility: Costs of Space, Physical Security and Personnel (+ Vendor Responsability)
 
 #Cloud SLAs
-#Demo: Cloud SLAs
+##AWS
+-Baseline EC2 – 99.99% Uptime
+-https://aws.amazon.com/legal/service-level-agreements/
+
+##Azure
+-Baseline virtual machine – 99.99% uptime*
+-https://azure.microsoft.com/en-us/support/legal/sla/
+
+##Google Cloud Platform
+-Baseline virtual machine – 99.99% uptime*
+-https://cloud.google.com/terms/sla
+
+*Azure and Google virtual machines must have multiple instances in different availability zones to qualify for 99.99% SLA.
+
 #Cloud Support
-#Demo: CLoud Support
+
+##AWS - https://aws.amazon.com/es/premiumsupport/pricing/
+-Basic
+-Developer
+-Business
+-Enterprise
+
+##Azure
+-Basic
+-Developer
+-Standard
+-Professional direct
+
+##Google Cloud Platform
+-Basic
+-Developer
+-Production
+-Premium
+

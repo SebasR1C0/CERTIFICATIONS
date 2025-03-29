@@ -1,18 +1,35 @@
-#API & Services
-##Enabled APIs & services
-###Compute Engine API
+# API & Services
+APIs and services in Google Cloud enable various functionalities and integrations. Ensuring the correct APIs are enabled is crucial for the services you intend to use.
+
+## Enabled APIs & services
+A list of APIs and services enabled in your Google Cloud project that are necessary for various operations.
+
+### Compute Engine API
+The Compute Engine API allows you to manage and interact with Google Cloud's virtual machine instances.
 -Make sure that is enabled
 
-#Cloud Storage
-##Buckets
+# Cloud Storage
+Google Cloud Storage is a service for storing and accessing your data on Google's infrastructure.
 
-#VPC network
-##VPC networks
+## Buckets
+Buckets are the basic containers that hold your data in Cloud Storage. Each bucket has a globally unique name and is associated with a project.
 
-#Cloud run (Search)
 
-#Compute engine
-##VM instances
+# VPC network
+Google Cloud VPC (Virtual Private Cloud) network provides networking functionalities to your Google Cloud Platform (GCP) resources.
+
+## VPC networks
+VPC networks are logically isolated sections of Google Cloud where you can launch GCP resources.
+
+
+# Cloud run (Search)
+Cloud Run is a managed compute platform that automatically scales your stateless containers.
+
+# Compute engine
+Compute Engine is Google's Infrastructure-as-a-Service (IaaS) offering, which provides virtual machines running in Google data centers.
+
+## VM instances
+Virtual Machine (VM) instances are the virtualized representations of physical computers that run on Google Compute Engine.
 ###Create
 -Name your VM instance as my-first-gcp-vm
 -Use a region you prefer

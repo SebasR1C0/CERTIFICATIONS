@@ -1,0 +1,14 @@
+#https://calculator.aws/#/
+
+1. Click on Create estimate.
+2. Search for EC2 and click on Configure for Amazon EC2.
+3. Under EC2 instance specifications, we will use the default settings i.e. an instance with Linux operating system, 4 virtual CPUs and 16 GiB of RAM.
+4. Under Amazon Elastic Block Storage (EBS), we will use the selected General Purpose SSD (gp2). Type 100 GB for storage amount. After that click on Save and add service.
+5. Next, search for MySQL and click on Configure for Amazon RDS for MySQL.
+6. Under MySQL instance specifications, we will select one db.t3.small instance having 2 virtual CPUs and 2 Gib of RAM.
+7. Under Storage, we will use the selected General Purpose SSD (gp2). Type 100 GB for storage amount. After that click on Save and add service.
+8. Next search for S3 and click on Configure for Amazon Simple Storage Service (S3).
+9. Under Select S3 Storage classes and other features , we will use the selected S3 Standard tier and Data Transfer service.
+10. Under S3 Standard, type 1 TB per month for storage. Type 2000000 for amount of PUT, COPY, POST, LIST requests to S3 Standard. Type 2000000 for amount of GET, SELECT, and all other requests from S3 Standard. You can set other amounts to 0.
+11. Under Data Transfer, you can set Inbound Data Transfer details as you want (Data transfer from Internet (free). For Outbound Data Transfer details, select Internet and enter 10 GB per month for amount. After that click on Save and view summary (Data transfer to Internet (0.05 USD - 0.09 USD
+12. You can check the estimated monthly cost for each service, your total estimated monthly cost and total 12 months cost as well.).

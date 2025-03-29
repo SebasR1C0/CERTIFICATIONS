@@ -1,0 +1,20 @@
+#https://cloud.google.com/products/calculator/
+
+-Click Add to estimate
+1. On the COMPUTE ENGINE tab and under Instances, set number of instances to 
+1. We will use the free operating system Linux and select machine type as e2-standard-4 having 4 virtual CPUs and 16 GB RAM.
+
+#Machine type
+-Machine FamilyMachine FamilyMachine Family
+  General Purpose
+-SeriesSeriesSeries
+  E2
+-Machine typeMachine typeMachine type
+  e2-standard-2
+2. Select SSD persistent disk for boot disk type and set 100 GiB for boot disk size.
+3. You can set the number of instances using ephemeral public IP to 1. After that click on ADD TO ESTIMATE. You can view the pricing on the right hand side.
+4. Next search for and go to CLOUD SQL. On the CLOUD SQL FOR MYSQL tab, set number of instances to 1 and select SQL instance type as db-lightweight-2 having 2 virtual CPUs and 3.75 GB RAM. Also select Enable High Availability Configuration checkbox.
+5. Click Advanced settings. Set 100 GiB SSD for storage and directly click on ADD TO ESTIMATE. You can check the pricing on the right hand side.
+6. Click Advanced settings. Next search for and go to CLOUD STORAGE. Under Cloud Storage select Standard Storage as the storage class and type 1 TiB for storage amount. Set Class A operations and Class B operations to 2 million per month.
+7. Under Network Egress, with the Region set to default, set inter-region, multi-region, and intra-region egress to 10 GiB. After that click on ADD TO ESTIMATE. You can view the pricing on the right hand side.
+8. You can check your total monthly estimate on the right hand side.

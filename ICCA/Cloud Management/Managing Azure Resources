@@ -1,1 +1,65 @@
+# Azure Virtual Machines
+Azure Virtual Machines (VMs) allow you to create and use virtual machines in the cloud. You can use them for development, testing, running applications, and extending your data center.
 
+## Create
+- Go to Azure portal
+- Select "Create a resource"
+- Choose "Virtual Machine"
+- Configure the basic settings (name, region, image, size, etc.)
+- Set up administrative account
+- Configure network settings
+- Review and create
+
+## Restart
+- Navigate to Virtual Machines in the Azure portal
+- Select the desired VM
+- Click on "Restart"
+
+## Delete
+- Navigate to Virtual Machines in the Azure portal
+- Select the desired VM
+- Click on "Delete"
+
+# Azure Blob Storage
+Azure Blob Storage is a service for storing large amounts of unstructured data such as text or binary data.
+
+## Create
+- Go to Azure portal
+- Select "Create a resource"
+- Choose "Storage account"
+- Configure the basic settings (name, region, performance, etc.)
+- Review and create
+- Navigate to the created storage account
+- Select "Blobs" and create a new container
+
+## Allow public access
+- Navigate to the storage account in the Azure portal
+- Select "Blobs"
+- Choose the container
+- Configure container permissions to allow public access
+
+## Delete
+- Navigate to the storage account in the Azure portal
+- Select "Blobs"
+- Choose the container
+- Delete the container
+
+# Azure SQL Database
+Azure SQL Database is a fully managed relational database with built-in intelligence.
+
+## Create
+- Go to Azure portal
+- Select "Create a resource"
+- Choose "SQL Database"
+- Configure the basic settings (name, server, compute tier, etc.)
+- Review and create
+
+## Query Data
+- Navigate to the SQL Database in the Azure portal
+- Select "Query editor"
+- Authenticate and run SQL queries
+
+## Delete
+- Navigate to the SQL Database in the Azure portal
+- Select the database
+- Click on "Delete"

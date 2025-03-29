@@ -4,7 +4,7 @@ Azure Virtual Machines (VMs) allow you to create and use virtual machines in the
 ## Create
 - Go to Azure portal
 - Select "Create a resource"
-- Choose "Virtual Machine"
+- Choose "Virtual Machine" or "Ubuntu Server"
 - Configure the basic settings (name, region, image, size, etc.)
 - Set up administrative account
 - Configure network settings

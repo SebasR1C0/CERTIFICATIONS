@@ -1,4 +1,5 @@
 #EC2
+##Create
 -Put a name "myfirstlab"
 -Choose a OS image "Amazon Linux"
 -Instance type: Here we choose the vCPU and Gib Memory, also we can compere btween instances
@@ -8,8 +9,31 @@
 -In the righ hand we can see how many instances we're goung to create by default is 1
 -Launch
 
+##Restart
+-Instances running
+-Intances State  
+-Reboot Instances
+-Reboot
+
+##Delete
+-Instances running
+-Intances State  
+-Terminate Delete Instance
+-Terminate
+
 #S3 bucket
+#Create
 -Bucket name put the name "inedemobucket"
 -Block all public access is true by default
 -Bucket Versioning is disable
 -Create a bucket
+
+#Allow public access
+-Create in the Bucket's name
+-Permissions
+-Edit in Block public access
+
+##Delete
+-Choose one or more
+-Delete
+-Delete Bucket

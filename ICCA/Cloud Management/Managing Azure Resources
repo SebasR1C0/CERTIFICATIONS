@@ -63,3 +63,10 @@ Azure SQL Database is a fully managed relational database with built-in intellig
 - Navigate to the SQL Database in the Azure portal
 - Select the database
 - Click on "Delete"
+
+#Add a storage container
+-storage account
+-Choose one
+-Find and click container
+-Create (+)
+-Put name

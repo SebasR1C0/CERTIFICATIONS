@@ -1,0 +1,10 @@
+#https://azure.microsoft.com/en-us/pricing/calculator/
+
+1. In the Popular section you can see Virual Machines. Click on it to add. In the Databases section, click on Azure Database for MySQL to add it. Similarly click on Storage Accounts (also available in the Popular section) to add it as well.
+2. Scroll down the page. Under Virtual Machines, select operating system as Linux. Select D4 v4 instance that includes 4 virtual CPUs and a minimum RAM of 16 GB.
+3. Under Managed Disks, select Standard SSD tier and 1 disk with 128 GiB disk size. Under Storage Transactions, we already have 100 units listed by default, we will use this.
+4. Under Azure Database for MySQL, select the Basic tier, and the machine size with 2 processors.
+5. Use 100 GiB for Storage. (LRS)
+6. Under Storage Accounts, select the Standard tier and use 1 TB for capacity.
+7. For Write operations and Read operations use the value - 200 (x 10,000). For Data Retrieval use 10 GB.
+8. Scroll down further to check your total Estimated monthly cost.

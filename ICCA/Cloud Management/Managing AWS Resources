@@ -1,39 +1,52 @@
-#EC2
-##Create
--Put a name "myfirstlab"
--Choose a OS image "Amazon Linux"
--Instance type: Here we choose the vCPU and Gib Memory, also we can compere btween instances
--Key pair (login): Create one, I called "demo" choose "RSA" & ".pem"
--Network settings: Here we can improve instance's security
--Configure storage
--In the righ hand we can see how many instances we're goung to create by default is 1
--Launch
+# EC2
+Amazon EC2 (Elastic Compute Cloud) provides scalable computing capacity in the Amazon Web Services (AWS) cloud. It allows users to launch and manage virtual servers, known as instances, and configure security, storage, and networking.
 
-##Restart
--Instances running
--Intances State  
--Reboot Instances
--Reboot
+## Create
+- Put a name "myfirstlab"
+- Choose an OS image "Amazon Linux"
+- Instance type: Here we choose the vCPU and GiB Memory, also we can compare between instances
+- Key pair (login): Create one, I called "demo" choose "RSA" & ".pem"
+- Network settings: Here we can improve instance's security
+- Configure storage
+- In the right hand, we can see how many instances we're going to create by default is 1
+- Launch
 
-##Delete
--Instances running
--Intances State  
--Terminate Delete Instance
--Terminate
+## Restart
+- Instances running
+- Instances State  
+- Reboot Instances
+- Reboot
 
-#S3 bucket
-#Create
--Bucket name put the name "inedemobucket"
--Block all public access is true by default
--Bucket Versioning is disable
--Create a bucket
+## Delete
+- Instances running
+- Instances State  
+- Terminate Delete Instance
+- Terminate
 
-#Allow public access
--Create in the Bucket's name
--Permissions
--Edit in Block public access
+# S3 bucket
+Amazon S3 (Simple Storage Service) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
-##Delete
--Choose one or more
--Delete
--Delete Bucket
+## Create
+- Bucket name put the name "inedemobucket"
+- Block all public access is true by default
+- Bucket Versioning is disabled
+- Create a bucket
+
+## Allow public access
+- Create in the Bucket's name
+- Permissions
+- Edit in Block public access
+
+## Delete
+- Choose one or more
+- Delete
+- Delete Bucket
+
+# Athena
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
+## Query Data
+- Create a database
+- Create a table
+- Run SQL queries on the data stored in S3
+- View query results in the Athena console

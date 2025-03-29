@@ -1,1 +1,30 @@
+#API & Services
+##Enabled APIs & services
+###Compute Engine API
+-Make sure that is enabled
 
+#Cloud Storage
+##Buckets
+
+#VPC network
+##VPC networks
+
+#Cloud run (Search)
+
+#Compute engine
+##VM instances
+###Create
+-Name your VM instance as my-first-gcp-vm
+-Use a region you prefer
+-Select the series as E2
+-Set the machine type to e2-micro
+-Create
+
+###Reboot
+-Click in three points
+-Stop
+-Star/resume
+
+###Delete
+-Click in three points
+-Delete

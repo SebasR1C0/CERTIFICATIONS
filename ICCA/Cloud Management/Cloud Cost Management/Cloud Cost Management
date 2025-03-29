@@ -1,1 +1,64 @@
-a
+#Cloud Pricing Models
+Beware of data tranfers and transaction costs
+##Capacity
+-VM or in AWS (EC2)
+-Bill on per second basis
+-DB 
+
+##Consumption
+-Storage
+-Use different kind of functions as Lamba (AWS)
+
+#Demo: Calculate Resource Costs
+##Azure
+###Azure Pricing Calculator
+-Features, MySql
+-Scroll down
+
+#Banwidth Pricing Details
+
+##AWS
+###AWS Pricing Calculator
+-Create Estimate
+-EC2, DB
+-Scroll down
+
+#Cloud Billing
+##Billing Entity
+-Understand what's being built
+
+##Billing cycle 
+-Generally a mounth
+
+##Billing Management
+-API
+-Web interface
+
+##Billing rate
+-Optimize
+
+##Marketplace Billing
+-There are a provider's partner that you could pay fot use them (as Firewall)
+
+#Cost Monitoring
+-Budgets
+-Alerts
+-Monitoring Tools
+-3erd Party
+
+#Cost Optimization
+##Agents
+-Azure advisors
+-AWS cost anomaly detection
+-Google recommender
+
+##Sizing
+##Autoscale
+##Serveless options
+#Long-term commitments
+
+#Demo: Optimize Storage Cost
+##Management AWS Console
+-Click in bucket
+-Choose a object (docker)
+-Scroll down to Storage class, put in Reduced Redundancy

@@ -9,7 +9,7 @@
 -Launch
 
 #S3 bucket
--Bucket name put the name "indedemobucket"
+-Bucket name put the name "inedemobucket"
 -Block all public access is true by default
 -Bucket Versioning is disable
 -Create a bucket

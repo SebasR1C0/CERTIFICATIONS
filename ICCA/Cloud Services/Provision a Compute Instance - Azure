@@ -4,17 +4,24 @@ Azure Virtual Machines (VMs) allow you to create and use virtual machines in the
 ## Create
 - Go to Azure portal
 - Select "Create a resource"
-- Choose "Virtual Machine" or "Ubuntu Server"
+- Choose "Ubuntu Server"
 - VM name: lab-vm, Security type: Standard, Size: Standard_D2s_v3.
-- Scroll down and choose Password. Username: student. Select inbound ports: HTTP and SSH. And click on Next: Disks
+- Scroll down and choose Password. Username: student. 
+- Select inbound ports: HTTP and SSH. And click on Next: Disks
 - OS disk type: Standard SSD(locally-redundant storage). Leave remaining as default and click on Review+Create.
 - Review and create
 
 ##Check
 -Go to resource
 -Copy the Public Ip address and click on the Cloud Shell. Note: You may use powershell or cloud Shell. (Use Bash)
--Select Storage Management
--Select Create
+-Select Create Storage Management
+-Select Create Myself
 -Select Group, choose a Region and put Names
 -Connect to the VM using ssh. Run the below command. Continue to yes and enter the password.
-  ssh student@[IP Public address cloud]
+  ssh student@[IP Public address cloud] --4.236.185.82
+-Run the following command to Update.
+  sudo apt update
+-Now install nginx. Run the following command.
+  sudo apt install -y nginx
+-Run the following command to verify.
+  curl localhost

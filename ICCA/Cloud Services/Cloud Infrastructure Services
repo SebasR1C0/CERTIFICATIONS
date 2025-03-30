@@ -1,1 +1,55 @@
 
+	Workload
+	Services
+	VM
+	Management Plane
+##IaaS
+	Virtualization 
+	Physical Infratructure
+	Physical Facility
+
+#IaaS
+	V-Network (Azure)/Virtual Private Cloud(GCP-Amazon):
+		Public endpoint
+		Gateways
+	VM/EC2:
+		Image (OS)
+
+#Cloud Networking
+	V-Net/VPC
+	DNS/IP-Range
+	VM
+		Subnet
+			Gateway
+			Load Balancer
+			Firewall
+			IP Range
+			NSG/ACL
+			Routing
+
+#Cloud Compute
+	Instance (How many Ram and Processor do you need)
+		Size
+			Series
+			Size
+		Image
+			OS (Windows/Linux)
+				Software 
+			Custom
+		Security Acces (V-Net/VPC)
+
+#Cloud Storage
+##AWS
+-S3 buckets
+-EFS
+-EBS
+
+##Azure
+-Storage account
+-Managed disks
+
+##GCP
+-Storage buckets
+-Compute engine disk and images
+
+#Demo: IaaS

@@ -1,5 +1,49 @@
-#PaaS
+  Workload
+#Paas 
+	Services
+	VM
+	Management Plane
+	Virtualization 
+	Physical Infratructure
+	Physical Facility
+
 #Application Hosting
+##AWS
+###Servicios de Aplicaciones
+    Lightsail
+    Batch 
+    Lambda
+    Beanstalk
+###Servicios de Contenedores
+    Elastic Container Service
+    Elastic Container Registry
+    Elastic Kubernetes Service
+    Fargate
+
+##Azure
+###Servicios de Aplicaciones
+    Web Apps
+    API Apps
+    Function Apps
+    Logic Apps 
+    Batch
+###Servicios de Contenedores
+    Azure Container Registry
+    Azure Container Instances
+    Azure Container Services
+
+##Google Cloud
+###Servicios de Aplicaciones
+    App Engine
+    Cloud Functions
+    Workflows
+###Servicios de Contenedores
+    Cloud Run
+    Container Registry
+    Kubernetes Engine
+    Cloud Build
+    Cloud Code
+
 #Data Hosting
 #Other Services
 #Demo: Application Hosting

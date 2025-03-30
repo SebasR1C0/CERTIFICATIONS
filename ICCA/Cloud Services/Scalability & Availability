@@ -1,0 +1,13 @@
+#Regional Computing
+-Regional Computing refers to the strategic deployment of cloud provider infrastructure in specific geographic locations to enhance connectivity, reduce latency, and optimize performance for users in that region. 
+-These regional data centers ensure faster response times and compliance with local regulations.
+
+#Cloud Scalability
+-Cloud Scalability refers to the ability of cloud environments to dynamically adjust resources based on demand. 
+-In AWS, services like AWS Lambda enable automatic scaling by provisioning different virtual machines (VMs) or compute resources depending on the number of users interacting with the application simultaneously. 
+-This ensures optimal performance and cost efficiency.
+
+#Cloud Availability
+
+#Demo: Cloud Scale
+

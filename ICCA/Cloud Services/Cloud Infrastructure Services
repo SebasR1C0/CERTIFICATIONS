@@ -90,7 +90,9 @@ EBS provides reliable block-level storage volumes for Amazon EC2 instances, idea
 	Review + Create
 
 -Check
-	In PowerShell we put ssh user@ip-address
+	In PowerShell we put 
+		ssh user@ip-address
+		ps -aux | grep waagent
 	
 
 

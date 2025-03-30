@@ -1,1 +1,39 @@
-a
+-Compute Engine from menu bar and click on VM instances.
+Click on CREATE INSTANCE.
+Content Image
+
+Choose Name: lab-vm, Region: us-east1(South Carolina), Machine type: e2-micro.
+Content Image
+
+Scroll down to Boot disk and click on Change.
+Content Image
+
+A window will be popped up, choose OS: Ubuntu, Version: Ubuntu 20.04 LTS and Click on Select.
+Content Image
+
+Scroll down to FireWall, select on Allow HTTP Traffic and create it.
+Content Image
+
+Refresh the page to update the Status. Once ready then click on the VM to open it.
+Content Image
+
+Click on Open in browser window.
+Content Image
+
+Run the below command in the terminal that was opened.
+sudo apt update
+Content Image
+
+Run the following command to install nginx.
+sudo apt install -y nginx
+Content Image
+
+Verify it by running the below command.
+curl localhost
+Content Image
+
+You may logout
+exit
+Content Image
+
+Copy the External IP address.

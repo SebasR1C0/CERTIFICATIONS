@@ -45,5 +45,80 @@
     Cloud Code
 
 #Data Hosting
+##AWS
+###Relational/SQL Databases
+- Amazon Aurora
+- Amazon RDS
+
+###NoSQL/Specialized Databases
+- Amazon Redshift
+- DynamoDB
+- Amazon Elasticache
+- Amazon DocumentDB
+- Amazon Keyspaces
+- Amazon Neptune
+
+##Azure
+###Relational/SQL Databases
+- Azure SQL Database
+- Azure Database for PostgreSQL
+- Azure Database for MySQL
+- Azure Database for MariaDB
+
+###NoSQL/Specialized Databases
+- Cosmos DB
+- Azure Synapse
+- Azure Redis Cache
+
+##Google Cloud
+###Relational/SQL Databases
+- Cloud Spanner
+- Cloud SQL
+
+###NoSQL/Specialized Databases
+- Cloud Bigtable
+- Firestore
+- Bigquery
+- Firebase
+- Memorystore
+
 #Other Services
-#Demo: Application Hosting
+-Authentication and identity services
+-Security services
+-Media services
+-Migration services
+-Archiving services
+-Machine learning
+-Cognitive services
+-IoT services
+-More
+
+#Demo: Application Hosting (AWS)
+##Create Relational DB
+-Standard
+-Choose MySql
+-Template: Production
+-Giving a name
+-DB instance size: db.m6g.large
+-Database Auth: Pswd and IAM
+-Create
+
+##Connect with MySql with the endpoint
+
+##Create Lamba
+-Create Function
+-Put in a name
+-Runtime Python
+-Create
+
+###Edit Lamab 
+-Go function Code
+-Edit
+-File->Save
+-Deploy
+
+###Add a Trigger to Lamba
+-API Gateway
+-API type: Http API
+-Security: Open
+-Add

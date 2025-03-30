@@ -41,8 +41,11 @@
 #Cloud Storage
 ##AWS
 -S3 buckets
--EFS
--EBS
+-Amazon Elastic File System (EFS)
+EFS is a scalable, fully managed file storage service for AWS Cloud and on-premises resources.
+
+-Amazon Elastic Block Store (EBS)
+EBS provides reliable block-level storage volumes for Amazon EC2 instances, ideal for databases and raw storage needs.
 
 ##Azure
 -Storage account

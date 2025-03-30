@@ -55,4 +55,42 @@ EBS provides reliable block-level storage volumes for Amazon EC2 instances, idea
 -Storage buckets
 -Compute engine disk and images
 
-#Demo: IaaS
+#Demo: IaaS Azure
+-Create a Virtual Metwork
+	#Basic
+	Create a Resource Group or Choose one
+	Put Name and choose a Region
+	#IP addresses
+	10.1.0.0/16
+	Here we can dona segmentation
+	#Security
+	Disabled all
+	
+	Review + Create
+	Create
+
+-Create Ubuntu Server
+	#Basic
+	Choose the same resource group
+	Put it a name and choose a region
+	choose a Image and a Size
+
+	Administrador account
+		Choose pswd
+
+	#Disk
+	Standard SSD
+	Default Encryption 
+	Use managed disks
+
+	#Networking
+	Use NIC Network basic 
+	Selec inbound porta SSH
+
+	Review + Create
+
+-Check
+	In PowerShell we put ssh user@ip-address
+	
+
+

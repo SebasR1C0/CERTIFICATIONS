@@ -1,1 +1,32 @@
+# EC2
+Amazon EC2 (Elastic Compute Cloud) provides scalable computing capacity in the Amazon Web Services (AWS) cloud. It allows users to launch and manage virtual servers, known as instances, and configure security, storage, and networking.
 
+## Create
+- Put a name "lab-vm"
+- Choose an OS image "Amazon Linux"
+- Choose Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type
+- Instance type: Here we choose the vCPU and GiB Memory, also we can compare between instances
+- Key pair (login): Create one, I called "demo" choose "RSA" & ".pem"
+- Network settings: Edit
+  Create a Security Group Rule
+    Type: HTTP and Source Type: Anywhere.
+- Configure storage
+- In the right hand, we can see how many instances we're going to create by default is 1
+- Launch
+
+#Connection
+-Check for the Instance State Status, refresh the page to update the status. Click on the Instance ID to open it.
+-Click on Connect
+-Click on the tab EC2 instance Connect and press the button Connect.
+-A new tab will be opened on the browser. So, run the below command in the terminal.
+  sudo amazon-linux-extras install nginx1
+-Press: y to continue.
+-Now start nginx by running the below command
+  sudo systemctl start nginx
+-Now verify it by running the below command.
+  curl localhost
+-Now, logout from terminal.
+  exit
+-Come back to the summary page and copy the External Public IPv4 address. 
+-Open in Browser
+-Terminate the insance.

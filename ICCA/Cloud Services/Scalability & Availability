@@ -8,6 +8,26 @@
 -This ensures optimal performance and cost efficiency.
 
 #Cloud Availability
+-Cloud availability refers to the ability of a cloud environment to remain accessible and operational for authorized users.
+-Using a load balancer improves redundancy by distributing traffic across multiple servers, reducing the risk of downtime.
+-Redundancy allows the creation of multiple virtual machines (VMs) in different geographic regions, ensuring high availability and fault tolerance.
 
 #Demo: Cloud Scale
+-Scale out
+-Manual scale: Instance count 30 
+-Custom autoscale: 
+  Instance limist 1 (min) - 30 (max)  
+  Add a Rule:
+    Metric name: CPU percentage
+    CPU Percentage: 5%
+    Operator: More than 70
+    Duration: 5 minutes
+    Increase count by 1
+
+    Metric name: CPU percentage
+    CPU Percentage: 5.17%
+    Operator: Less than 30
+    Duration: 5 minutes
+    Decrease count by 1
+
 

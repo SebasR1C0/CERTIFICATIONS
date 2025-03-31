@@ -13,6 +13,7 @@
 -Redundancy allows the creation of multiple virtual machines (VMs) in different geographic regions, ensuring high availability and fault tolerance.
 
 #Demo: Cloud Scale
+-App service 
 -Scale out
 -Manual scale: Instance count 30 
 -Custom autoscale: 

@@ -1,1 +1,10 @@
-a
+#Owner
+##Resource GP
+-Vm
+-Db
+-Storage
+
+##Azure AD
+-Users 
+-Groups
+-Services Principles

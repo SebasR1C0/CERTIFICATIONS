@@ -54,9 +54,7 @@ Below are the certifications I plan to pursue and document here:
 This is a personal repository, but feel free to suggest improvements or share useful resources!
 
 ## 📬 Contact
-📧 Email: [Your Email]  
-💼 LinkedIn: [Your LinkedIn Profile]  
-🐦 Twitter: [Your Twitter Handle]  
+💼 LinkedIn: [www.linkedin.com/in/cesarsebastianrojascadillo]  
 
 ---
 ### 🚀 Stay tuned for updates as I progress on my certification journey!

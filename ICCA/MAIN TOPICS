@@ -1,0 +1,62 @@
+Cloud Concepts (Minimum 72%) This domain covers the fundamental concepts of cloud computing.
+Recommended materials to study: Fundamentals of Cloud Computing:
+
+History and evolution of cloud computing.
+Benefits and key characteristics (scalability, elasticity, self-service, etc.).
+Types of clouds: public, private, hybrid.
+Cloud Service Models:
+
+IaaS (Infrastructure as a Service): Practical examples such as EC2 (AWS), Azure VMs, Google Compute Engine.
+PaaS (Platform as a Service): Examples like AWS Elastic Beanstalk, Azure App Service, Google App Engine.
+SaaS (Software as a Service): Examples like Office 365, Gmail, Salesforce.
+Cloud Deployment Models:
+
+Differences between public, private, and hybrid clouds.
+Implementation of solutions based on these models.
+Resources to study:
+
+Introductory cloud courses: Udemy, Coursera, or LinkedIn Learning offer courses like "Cloud Computing Basics" or "Introduction to Cloud Services".
+Books: "Cloud Computing: Concepts, Technology & Architecture" by Thomas Erl.
+Cloud Services (Minimum 75%) This domain focuses on the services offered on cloud platforms (AWS, Azure, and Google Cloud).
+Recommended materials to study: Compute Services:
+
+Amazon EC2, Azure Virtual Machines, Google Compute Engine: Provisioning and managing compute instances.
+Storage Services:
+
+Amazon S3, Azure Blob Storage, Google Cloud Storage: Differences between block, object, and file storage.
+Networking Services:
+
+Amazon VPC, Azure Virtual Network, Google VPC: Configuration of virtual private networks, subnets, and managing traffic between instances.
+Database Services:
+
+Amazon RDS, Azure SQL Database, Google Cloud SQL: Creation and management of relational and non-relational databases.
+Additional Services:
+
+Load balancers, VPNs, CDNs (Amazon CloudFront, Azure CDN, Google Cloud CDN).
+Resources to study:
+
+Official documentation of AWS, Azure, and Google Cloud: Study the services these providers offer and how they are implemented in practice.
+Hands-on labs: Use the free tiers of each provider to experiment with creating compute instances, storage, and networks.
+Courses: Platforms like A Cloud Guru or Linux Academy have detailed modules on each of these services.
+Cloud Security & Regulatory Compliance (Minimum 65%) This domain covers cloud security and regulatory compliance.
+Recommended materials to study: Cloud Security:
+
+Data encryption at rest and in transit: Use of TLS/SSL, database encryption, storage encryption (S3, Blob Storage, Cloud Storage).
+Authentication and authorization: Use of MFA (Multi-Factor Authentication) and IAM (Identity and Access Management) in AWS, Azure, and Google Cloud.
+Shared Responsibility Model:
+
+Understanding who is responsible for what in the cloud: The provider is responsible for the infrastructure, the customer is responsible for data and applications.
+Compliance Policies and Tools:
+
+Tools like AWS Artifact, Azure Compliance Manager, and Google Cloud Compliance help ensure compliance with regulations like GDPR, PCI-DSS, HIPAA.
+Security Monitoring and Auditing:
+
+Use AWS CloudTrail, Azure Security Center, Google Cloud Security Command Center to detect suspicious activities.
+Compliance Regulations and Standards:
+
+Knowing the main compliance regulations and how they apply to the cloud.
+Resources to study:
+
+Specific cloud security courses: Udemy and LinkedIn Learning have courses on cloud security and regulatory compliance. A course like "Cloud Security Fundamentals" can be useful.
+Security certifications: Courses like the AWS Certified Security – Specialty or Certified Cloud Security Professional (CCSP) can help you deepen your knowledge of cloud security.
+Compliance reading: Read about regulations like GDPR, PCI-DSS, and HIPAA on the official sites of cloud platforms.

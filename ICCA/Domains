@@ -1,0 +1,39 @@
+# Cloud Computing Assessment Results
+
+## Overall Summary
+- Required overall score: 70%
+
+### 1. Cloud Concepts
+- Required score: 72%
+- Explain cloud management concepts: 7
+- Describe the benefits of the cloud: 8
+- Identify cloud monitoring and automation features: 3
+
+### 2. Cloud Services
+- Required score: 75%
+- Describe Platform as a Service (PaaS): 5
+- Describe Infrastructure as a Service (IaaS): 3
+
+### 3. Cloud Security and Regulatory Compliance
+- Required score: 65%
+- Explain cloud regulatory compliance: 5
+- Explain cloud infrastructure protection: 4
+- Explain cloud identity and access management: 2
+- Describe cloud data protection concepts and tools: 3
+- Identify cloud identity vulnerabilities and protection tools: 2
+
+## ICCA Hands-on Certification Lab
+- Required score: 72%
+
+### Lab Activities Completed:
+1. **Deployment of a Virtual Machine on AWS EC2:**
+   - Successfully deployed a t2.micro EC2 instance running Amazon Linux in the N. Virginia region.
+
+2. **Proper Tagging of Cloud Resources:**
+   - Added a key/value tag to the EC2 instance with "Name" set to “WEB-SERVER-001” to ensure proper organization and identification in the cloud.
+
+3. **Security Group Configuration for HTTP Access:**
+   - Created a security group named “HTTP” allowing inbound access to TCP port 80 from any source to enable public access to the web application.
+
+4. **Blocking Public Access to Amazon S3 Buckets:**
+   - Successfully configured the environment to block all public access to existing S3 buckets, ensuring confidential team files remain secure.

@@ -1,0 +1,25 @@
+What Are We Looking For?
+
+    IP addresses
+
+    Directories hidden from search engines
+
+    Names
+
+    Email addresses
+
+    Phone numbers
+
+    Physical addresses
+
+    Web technologies being used
+
+
+Tools:
+  host hackersploit.org -> to get ip
+  https://hackersploit.org/robots.txt -> using robots.txt -> if this don't exist, you can enter to any web's path
+  https://hackersploit.org/sitemap.xml -> using sitemap.xml -> if a particular page was not linked on the main, other links can be acces publicaly
+  https://hackersploit.org/sitemaps.xml  -> using sitemaps.xml 
+  Add this puglin in firefox -> BuiltWith
+                                Wappalyzer
+  apt-get install webhttrack -> using webhttrack

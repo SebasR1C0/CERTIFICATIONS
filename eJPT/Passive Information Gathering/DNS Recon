@@ -1,0 +1,6 @@
+dnsrecon -d hackersploit.org
+[*] std: Performing General Enumeration against: hackersploit.org...
+[*] DNSSEC is configured for hackersploit.org
+---------------
+https://dnsdumpster.com/
+Recommended

@@ -1,0 +1,16 @@
+DNS Zone Transfer->Want to copy or transfer zone files from one DNS server to antoher. This process is kmnown as a zone transfer
+
+A-Resolves a hostanme or domain to an IPv4 address
+AAAA-Resolves a hostanme or domain to an IPv6 address
+NS-Reference to the domains nameserver
+MX-Resolves a domain to a mail server
+CNAME-Used for domain aliases
+TXT-Text record
+HINFO-Host information
+SOA-Domain authority
+SRV-Service records
+PTR-Resolves an IP address to a hostname
+
+*DNS Interrogation->The process of enumerating DNS records for a specific domain
+
+dnsenum->Scan actively to all domains

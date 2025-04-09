@@ -1,0 +1,38 @@
+First step in hacking attack
+
+What Are We Looking For?
+
+    IP addresses
+    Directories hidden from search engines
+    Names
+    Email addresses
+    Phone numbers
+    Physical addresses
+    Web technologies being used
+----------------------------------------------------------
+Tools:
+  host hackersploit.org -> to get ip
+  https://hackersploit.org/robots.txt -> using robots.txt -> if this don't exist, you can enter to any web's path
+  https://hackersploit.org/sitemap.xml -> using sitemap.xml -> if a particular page was not linked on the main, other links can be acces publicaly
+  https://hackersploit.org/sitemaps.xml  -> using sitemaps.xml 
+  Add this puglin in firefox -> BuiltWith
+                                Wappalyzer
+  apt-get install webhttrack -> using webhttrack
+----------------------------------------------------------
+whois hackersploit.org-> With this tool we have a oublic information about the IP o DNS that we are searching
+----------------------------------------------------------
+https://sitereport.netcraft.com/?url=https://hackersploit.org#ssl_table->Get a Web's description
+----------------------------------------------------------
+DNS RECON
+dnsrecon -d hackersploit.org
+[*] std: Performing General Enumeration against: hackersploit.org...
+[*] DNSSEC is configured for hackersploit.org
+----------------------------------------------------------
+https://dnsdumpster.com/->Recommended
+----------------------------------------------------------
+MX: records specify the mail servers responsible for receiving emails for a domain.
+MS: is not a DNS record type.
+A: is usder for IPv4 addresses
+AAAA: is used for IPv6 addresses.
+TXT: records are used to store arbitrary text, often for verification purposes or security settings like SPF (Sender Policy Framework).
+----------------------------------------------------------

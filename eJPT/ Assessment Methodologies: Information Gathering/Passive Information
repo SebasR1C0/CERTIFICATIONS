@@ -9,6 +9,10 @@ What Are We Looking For?
     Phone numbers
     Physical addresses
     Web technologies being used
+
+Urls to practice:
+-zonetransfer.me
+-hackersploit.org
 ----------------------------------------------------------
 Tools:
   host hackersploit.org -> to get ip
@@ -29,10 +33,38 @@ dnsrecon -d hackersploit.org
 [*] DNSSEC is configured for hackersploit.org
 ----------------------------------------------------------
 https://dnsdumpster.com/->Recommended
-----------------------------------------------------------
+
 MX: records specify the mail servers responsible for receiving emails for a domain.
 MS: is not a DNS record type.
 A: is usder for IPv4 addresses
 AAAA: is used for IPv6 addresses.
 TXT: records are used to store arbitrary text, often for verification purposes or security settings like SPF (Sender Policy Framework).
 ----------------------------------------------------------
+wafw00f->Web Aplication Firewall Fingerprinting Tool
+https://github.com/EnableSecurity/wafw00f
+
+wafw00f -l -> Detect a number of firewalls
+wafw00f "url"-> Validating the web's firewalls
+wafw00f "url" -a
+If we validate that web page don't have a firewall, in the active information we'll be able to scan port on IP
+----------------------------------------------------------
+Subdomain Enumeration with Sublist3r->Using public information
+https://github.com/aboul3la/Sublist3r
+
+sublist3r -d hackersploit.org -e google,yahoo (example)
+----------------------------------------------------------
+Google Dorks or Google Hacking->Searching for domaing
+
+site:ine.com inurl:admin
+site:*.ine.com->Fiding all subdomains
+site:*.ine.com intitle:admin filetype:pdf
+cache:ine.com
+
+Common Vulnerability
+intitle:index of
+inurl:auth_user_user_file.txt
+inurl:paswd.txt
+inurl:wp-config.bak
+
+waybackmachine->all web's versions
+google hacking database

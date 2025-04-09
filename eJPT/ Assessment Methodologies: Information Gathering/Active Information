@@ -14,3 +14,29 @@ PTR-Resolves an IP address to a hostname
 *DNS Interrogation->The process of enumerating DNS records for a specific domain
 
 dnsenum->Scan actively to all domains
+
+sudo vim /etc/hosts->Search own hosting
+
+fierce->scanner
+https://github.com/mschwager/fierce
+-------------------------------------------------------------
+NMAP->The best tool to scann 
+https://github.com/nmap/nmap
+
+netdiscover->Send get IP address in own network
+
+curl -4 ifconfig.me->Get IPv4 public
+
+-Pn->No ping
+-sU->UDP port scan
+-p->Port -p80,443 or -p1-1000
+-F->Most useful ports
+-v->Know what happen in bg
+-oN test.txt->Convert the input en txt
+-oX test.xml->Convert the input en xml
+
+Agresive scan:
+-sV->Get specific versions
+-O->Get OS
+-sC->Run scripst in each port to get more information
+-T5->Don't recommended

@@ -1,0 +1,7 @@
+Netdiscover is a network address discovering tool, developed mainly for those wireless networks without dhcp server, it also works on hub/switched networks. Its based on arp packets, it will send arp requests and sniff for replies.
+
+- Mac ignore filter
+- Add support to sort entries
+- Make parsable output compatible with the three view modes
+- Implement network guessing mode
+- Add identified hosts list

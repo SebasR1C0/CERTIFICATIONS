@@ -1,0 +1,16 @@
+Network scanning tool and security survey/ports
+
+nmap -v scanme.nmap.org
+This option probes all the TCP ports booked on the server scanme.nmap.org. The option -vactivate the detailed mode 
+
+nmap -sS -O scanme.nmap.org/24
+Launches a stealth SYN poll against each of the 255 machines in the C-class of the network where the "analyze me" system is. Also try to determine what the operating system is running in every machine that is on. This requires root permits by the SYN probing option and the operating system detection option.
+
+nmap -sV -p 22,53,110,143,4564 198.116.0-255.1-127
+Launches a list of teams and a TCP poll to each of the first half of the 255 possible 8-bit subnets on the Class B network 198.116. This will test whether the systems are running sshd, DNS, pop3d, imapd or have a server at port 4564. For any port that is open, a version detection will be performed to determine which application is He's running.
+
+nmap -v -iR 100000 -P0 -p 80
+Ask Nmap to choose 100,000 systems randomly and probes them by searching for web servers (port 80). The enumeration of systems are disabled with -P0since it's a waste send a pair of tests to determine if the system should be analyzed when only one port is going to be analyzed anyway.
+
+nmap -P0 -p80 -oX logs/pb-port80scan.xml -oG logs/pb-port80scan.gnmap 216.163.128.20/20
+This probes 4096 IPs to search for any web server (without sending ICMP probes) and save the output in format for grep and XML.

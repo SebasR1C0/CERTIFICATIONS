@@ -1,0 +1,5 @@
+1. This tells search engines what to and what not to avoid. 
+    To find basic information about the web site you have to soy the path */robots.txt or */sitemaps.xml
+2.  What website is running on the target, and what is its version? 
+    To get version information, we have to use the tool "whatweb url"
+3. Directory browsing might reveal where files are stored.

@@ -13,3 +13,18 @@ Tomar en cuenta que cuando el js usa innerhtml los tags <script> no funcionan po
 ```
 <img src=x onerror=alert(document.cookie)>
 ```
+
+# Automated tools
+```
+git clone https://github.com/s0md3v/XSStrike.git
+cd XSStrike
+pip install -r requirements.txt
+python xsstrike.py
+python xsstrike.py -u "http://SERVER_IP:PORT/index.php?task=test" 
+```
+
+# Repositories
+```
+[PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/README.md)
+[Payload-Box](https://github.com/payload-box/xss-payload-list)
+```

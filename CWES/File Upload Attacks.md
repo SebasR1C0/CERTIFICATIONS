@@ -57,7 +57,9 @@ shell.php.jpg
 .\
 .
 …
+\x00
 :
+%0d%0a
 ```
 7. Otras
 ```

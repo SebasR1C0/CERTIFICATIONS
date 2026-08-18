@@ -14,3 +14,7 @@ Determinar el número de columnas: ```' ORDER BY 1--```
 
 
 ORACLE: ```' UNION SELECT NULL FROM DUAL--```
+
+
+# Referencias
+- [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

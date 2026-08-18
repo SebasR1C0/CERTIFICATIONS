@@ -2,6 +2,7 @@
 Tener en cuenta que no siempre comienza con ' si no con ", )", )', etc...
 
 WHERE QUERY: ```SELECT * FROM USERS WHERE username= '???'```
+
 LOGIN QUERY: ```SELECT * FROM USERS WHERE username= '???' AND password= '???'```
 
 # EXTRAER INFORMACIÓN DE LA DB

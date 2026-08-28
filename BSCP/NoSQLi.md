@@ -19,7 +19,7 @@ Common payloads:
 - $where: Cumple una condición 
 - $ne: not equal -> ```{"username":{"$ne":"invalid"}}``` OR  ```username[$ne]=invalid```
 - $in: Dentro del array -> ```{"username":{"$in":["admin","administrator","superadmin"]}}```
-- $regex: regex match -> ```{"username":{"$regex":"^a."}}```
+- $regex: regex match -> ```{"username":{"$regex":"^a"}}```
 
 # Blind NoSQLi
 ```

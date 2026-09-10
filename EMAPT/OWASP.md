@@ -17,4 +17,9 @@ Para identificar la vuln: setJavaScriptEnabled
 <img width="1718" height="822" alt="image" src="https://github.com/user-attachments/assets/0fa6c3b0-b106-4fb5-91fc-f67a79b2ef80" />
 <img width="1712" height="680" alt="image" src="https://github.com/user-attachments/assets/6f01a9d3-63d1-48c5-a9a5-6660c33f81d4" />
 
+# M6: Inadequate Privacy Controls
+<img width="1159" height="440" alt="image" src="https://github.com/user-attachments/assets/c4348fcf-6254-4991-8e99-c0be14f919e8" />
+<img width="1149" height="393" alt="image" src="https://github.com/user-attachments/assets/7d604297-cac1-4af4-a161-02a11658184f" />
+
+# M7: Insufficient Binary Protection
 

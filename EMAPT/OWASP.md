@@ -27,3 +27,10 @@ Para identificar la vuln: setJavaScriptEnabled
 android:debuggable
 <img width="1103" height="566" alt="image" src="https://github.com/user-attachments/assets/73a20a33-1840-4ccd-974f-5092f4b12b03" />
 
+# M9: Insecure Data Storage
+<img width="1125" height="552" alt="image" src="https://github.com/user-attachments/assets/48f67414-ed2b-46ae-87a4-cf00fd4a876e" />
+<img width="1074" height="501" alt="image" src="https://github.com/user-attachments/assets/a0835895-caf3-4c87-aef1-406f71520f32" />
+
+# M10: Insufficient Cryptography
+<img width="1088" height="472" alt="image" src="https://github.com/user-attachments/assets/df50e917-8b73-4f9d-89d7-b635fffb0c3e" />
+

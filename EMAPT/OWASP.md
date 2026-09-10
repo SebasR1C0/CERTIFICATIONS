@@ -23,3 +23,6 @@ Para identificar la vuln: setJavaScriptEnabled
 
 # M7: Insufficient Binary Protection
 
+# M8: Security Misconfiguration
+<img width="1103" height="566" alt="image" src="https://github.com/user-attachments/assets/73a20a33-1840-4ccd-974f-5092f4b12b03" />
+

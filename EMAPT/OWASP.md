@@ -13,6 +13,8 @@
 # M4: Insufficient Input/Output Validation
 Para identificar la vuln: setJavaScriptEnabled
 
-
+# M5: Insecure Communication
+<img width="1718" height="822" alt="image" src="https://github.com/user-attachments/assets/0fa6c3b0-b106-4fb5-91fc-f67a79b2ef80" />
+<img width="1712" height="680" alt="image" src="https://github.com/user-attachments/assets/6f01a9d3-63d1-48c5-a9a5-6660c33f81d4" />
 
 

@@ -8,7 +8,7 @@ adb pull /data/app/~~oZ0lNhDdkIp2NaWMhGczgw==/infosecadventures.allsafe-ttByxQb4
 apktool d app.apk -o app_decoded
 
 # Correrlo en modo debugger (setJavaScriptEnabled)
-adb jdwp
+adb jdwp o adb shell ps | grep bank
 adb forward tcp:55555 jdwp:<PID>
 jdb -connect com.sun.jdi.SocketAttach:hostname=localhost,port=55555
 

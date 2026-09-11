@@ -12,6 +12,11 @@ adb jdwp o adb shell ps | grep bank
 adb forward tcp:55555 jdwp:<PID>
 jdb -connect com.sun.jdi.SocketAttach:hostname=localhost,port=55555
 
+# Files
+ls cache
+ls code_cache
+ls shared_prefs
+
 # DROZER
 drozer conbsole connect
   run app.package.attacksurface com.insecureshop

@@ -40,3 +40,7 @@ apk-mitm todo.apks
 unzip todo-released.apks
 adb install-multiple *.apk
 ```
+
+## INVESTIGAR
+gephi
+androguard

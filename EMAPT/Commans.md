@@ -43,6 +43,11 @@ adb install-multiple *.apk
 
 ## INVESTIGAR
 gephi
+
 androguard
+
 dexdump
+
+otool
+
 [Código Populares de Frida](https://codeshare.frida.re)

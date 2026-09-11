@@ -20,7 +20,7 @@ ls shared_prefs
 ls databases
 
 # DROZER
-drozer conbsole connect
+drozer console connect
   run app.package.attacksurface com.insecureshop
   run app.activity.info -a com.insecureshop
   run app.activity.start --component com.insecureshop com.insecureshop.WebViewActivity

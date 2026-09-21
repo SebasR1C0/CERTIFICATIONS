@@ -35,12 +35,14 @@ Fase 4 — Relevantes pero algo menos frecuentes en el BSCP clásico
 24. API testing (mapa mental de todo lo anterior aplicado a APIs)
 
 Fase 5 — Especializados / menos probables pero no descartables
+
 25. HTTP request smuggling — requiere entender HTTP a bajo nivel; suele ser de los últimos porque es denso
 26. Web cache poisoning
 27. Web cache deception
 28. HTTP Host header attacks
 29. Prototype pollution
 30. Web LLM attacks (tema nuevo, baja probabilidad todavía en el examen "clásico")
+
 
 <img width="889" height="251" alt="image" src="https://github.com/user-attachments/assets/f086c2f2-3501-43c3-96f8-f1f3202c4867" />
 

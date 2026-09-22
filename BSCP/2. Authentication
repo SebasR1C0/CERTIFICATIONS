@@ -1,3 +1,14 @@
 # Brute-force
+
 - Validar la diferente respuesta cuando existe un usuario.
-- 
+- Si hay bloqueo por IP probar (X-Forwarded-For: )
+- El tiempo de respuesta en la enumeración de usuarios (poner una contraseña larga)
+- El control se podría reiniciar cuando encuentra credenciales correctas
+- Si el usuarios existe, se podría bloquear la cuenta
+- Enviar el paramtro password con una lista (["123","234",...])
+
+# Two-factor 
+
+- Omición de la página de OTP, redirección directa a /my-account?id=carlos
+- Fuerza bruta al OTP
+- Verificación de la cookie
